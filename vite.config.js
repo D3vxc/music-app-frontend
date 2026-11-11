@@ -1,7 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// base './' makes the build work from any sub-path (e.g. GitHub Pages /music-app-frontend/).
 export default defineConfig({
+  base: './',
   plugins: [react()],
-})
+  test: {
+    environment: 'jsdom',
+  },
+});
