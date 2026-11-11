@@ -1,5 +1,5 @@
 {
-  "name": "spotify-frontend",
+  "name": "music-app-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,10 +15,8 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.1",
     "axios": "^1.2.1",
-    "mouse-event": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook": "^0.0.1",
     "react-hook-form": "^7.41.1",
     "react-router-dom": "^6.6.0",
     "zod": "^3.20.2"
